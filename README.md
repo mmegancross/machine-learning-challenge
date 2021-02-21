@@ -1,5 +1,12 @@
 # machine-learning-challenge
 
+Final Analysis: 
+
+Using Scikit-learn, I built two machine learning models to assist in classifying candidate exoplanets from raw data gathered by the NASA Kepler space telescope. The first is an SVC model that utilized data scaled by the sklearn pre-processing MinMaxScaler function and encoded via the Label Encoder function. The SVC model initially returned a Training Data Score of 0.84303 and Testing Data Score of 0.83409. When prting a classification report, the f1-score did not determine a higher degree of accuracy. To tune the model, GridSearchCV was used and returned a slighly improved score of 0.88403. The second model, a Logistic Regression, received the same training as the SVC model with initial Training Data Score of 0.85065 and Testing Data Score of 0.84153. After hyperparameter tuning, the best score was 0.87411. The f-1 scores and precision scores here were not indicative of higher accuracy.
+
+Overall, the logistic regression model returned a higher initial score, but after further tuning the SVC model returned the highest accuracy. However, these scores are not high enough to suggest an accurate model and require further testing.
+
+Homework Requirements: 
 
 # Machine Learning Homework - Exoplanet Exploration
 
